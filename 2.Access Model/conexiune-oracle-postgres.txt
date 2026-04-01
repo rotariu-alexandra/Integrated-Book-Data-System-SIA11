@@ -1,0 +1,5 @@
+//conexiuni oracle-postgres
+
+http://127.0.0.1:3000/user_interests
+http://127.0.0.1:3000/users
+http://127.0.0.1:3000/themes

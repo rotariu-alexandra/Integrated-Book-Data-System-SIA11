@@ -1,0 +1,5 @@
+conexiuni oracle-mongodb
+
+http://localhost:8081/booksDB
+http://localhost:8081/booksDB/ratings
+http://localhost:8081/booksDB/reviews
