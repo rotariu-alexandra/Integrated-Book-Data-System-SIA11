@@ -1,0 +1,5 @@
+curl -i -X POST --user spark:sql -H "Content-Type: text/plain" --data "http://localhost:8091/api/postgres/users" "http://localhost:9990/DSA-SparkSQL-Service/_sqlrest/create-json-view-from-rest?view_name=PG_USERS_RAW"
+
+curl -i -X POST --user spark:sql -H "Content-Type: text/plain" --data "http://localhost:8092/api/mongo/ratings" "http://localhost:9990/DSA-SparkSQL-Service/_sqlrest/create-json-view-from-rest?view_name=MONGO_RATINGS_RAW"
+
+curl -i -X POST --user spark:sql -H "Content-Type: text/plain" --data "http://localhost:8093/api/oracle/books" "http://localhost:9990/DSA-SparkSQL-Service/_sqlrest/create-json-view-from-rest?view_name=ORACLE_BOOKS_RAW"
